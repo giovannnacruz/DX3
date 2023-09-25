@@ -1,0 +1,42 @@
+.desafio1{
+    border-radius: 10px;
+    background-color:aqua;
+    font-size: 30px;
+    cursor: pointer;
+    width: 500px;
+    margin-top: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+.desafio{
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+body{
+    background-image:linear-gradient(to left,#148cc8 ,	#07aff7,#0c64ac,#1946a9);
+    background-size: 500% 100%;
+    animation: degrade-animado 10s infinite alternate;
+}
+
+
+.barra{
+   background-color:black;
+  height: 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+@keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+ }
+   100%{
+    background-position-x: 100%;
+   }  
+}
+
